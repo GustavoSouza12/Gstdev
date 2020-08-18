@@ -112,7 +112,7 @@ function ProjectsPage(){
                             styled components, react router dom and typescript </p>
                         <Wrapper data-aos="fade-up" data-aos-duration="1200">
                             <GithubCode> 
-                                <a href="https://www.instagram.com/gusouza_12/" target="_blank"  rel="noopener noreferrer">Code on Github<DiGithubBadge/></a>
+                                <a href="https://github.com/GustavoSouza12/Gstdev" target="_blank"  rel="noopener noreferrer">Code on Github<DiGithubBadge/></a>
                             </GithubCode>
                         </Wrapper>
                         <a href="#top" className="back-top" data-aos="fade-up" data-aos-duration="1200" >Back to the top</a>
