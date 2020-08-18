@@ -1,0 +1,110 @@
+.yellow{
+    background-color:  #ecbe7d;
+}
+
+.header-container{
+    background-color: #ecbe7d !important;
+    position: relative;
+}
+.button-container{
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+
+}
+
+main .container-about-page{
+    background-color: var(--color-primary-lighter);
+    padding: -20px;
+    height: auto;
+    position: relative;
+    padding-bottom: 100px;
+    margin-top: -10px;
+}
+main h1{
+     font-size: 3.3rem;
+      padding-top: 40px !important;
+}
+main  h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 40px 0px !important;
+}
+
+main div .about{
+    width: 80%;
+    height: 100%;
+}
+main div .skills{
+    width: 80%;
+    height: 100%;
+}
+main div .content {
+    font-size: 1.2rem;
+    width: 100%;
+    margin-top: 0.8rem;
+    margin-left: 5px;
+    text-align: center;
+}
+main div .content-skills {
+    font-size: 1.2rem;
+    width: 75%;
+    margin-top: 0.8rem;
+    margin-left: 5px;
+    text-align: center !important;
+}
+main .container-about-page  h3 {
+    padding: 20px 0px;
+    font-size: 2.5rem;
+}
+main .container-about-page ul li{
+    list-style-type: none;
+    line-height: 2rem;
+
+    font-size: 1.8rem;
+    margin: 100px 0px;
+    align-items: center;
+    display: grid;
+}
+main .container-about-page ul li:before{
+    content: '';
+    position: absolute;
+
+    height: 6px;
+    width: 20%;
+    background-color: #ecc690;
+    transform: rotate(75deg);
+}
+main .container-about-page ul li:after{
+    content: '';
+    position: absolute;
+    right: 0;
+    height: 6px;
+    width: 20%;
+    background-color: #ecc690;
+    transform: rotate(-75deg);
+}
+main .container-abou-page .sublist li {
+    margin: 10px 0px;
+}
+main .container-about-page ul li span{
+    font-size: 15rem;
+    color: #ecbe7d;
+}
+main .container-about-page .content .back-top{
+    padding: 10px;
+    border: 3px solid #ecbe7d;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 400;
+    transition: 0.5 ease;
+}
+main .container-about-page .content .back-top:hover{
+    padding: 15px;
+}
+@media (min-width: 700px){
+    body{
+    background-color: var(--color-primary-light)
+    }
+}
+

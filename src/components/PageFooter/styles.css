@@ -1,0 +1,21 @@
+footer {
+   padding-top: 30px;
+    width: 100%;
+   
+    text-align: center;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social div a{
+    font-size: 5rem;
+    margin: 10px;
+    color: var(--color-primary);
+}
+
+footer .contact .email a{
+    text-decoration: none !important;
+    color: var( --color-text-base);
+}

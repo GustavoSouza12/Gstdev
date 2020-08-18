@@ -1,0 +1,158 @@
+#page-landing{
+    background: rgb(255, 255, 255) !important;
+    padding: 0 20px;
+}
+.container{
+    background-color: #ffff !important;
+}
+.logo-container{
+    height: 5rem;
+    padding-bottom: 100px;
+}
+.hero-image{
+    width: 100%;
+    height: 80%;
+    
+    margin-top: 100px;
+}
+.logo-container{
+    text-align: center;
+    margin-bottom: 3.2rem;
+}
+.logo-container{
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 4.6rem;
+    margin-top: 0.8rem;
+    
+}
+.logo-container h1{
+   font-size: 5.9rem;
+   color: var( --color-primary-dark)
+}
+.logo-container h2{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    color: var(  --color-primary-lighter)
+}
+.logo-container h2 span {
+    color: var(--color-primary)
+}
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    margin: 3.2rem 0;
+}
+.buttons-container a{
+    width: 30rem;
+    height: 10.4rem;
+    border-radius: 0.8rem;
+    margin-right: 1.6rem;
+    font: 700 2.0rem Archivo;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    color: var(--color-primary-light);
+    border: 2px solid;
+    border-color: var( --color-primary-light);
+    transition: background-color 0.2s;
+}
+
+.buttons-container a:first-child{
+    margin-right: 1.6rem;
+}
+
+.buttons-container a img{
+    width: 4rem;
+}
+
+.buttons-container a.button1{
+    background: #ffd8a1;
+}
+
+.buttons-container a.button1:hover{
+    background: #eeba72;
+}
+
+.buttons-container a.button2{
+    background: #f9d5ff;
+}
+
+.buttons-container a.button2:hover{
+    background: #daa4e4;
+}
+.buttons-container a.button3{
+    background: #c0ddfc;
+}
+.buttons-container a.button3:hover{
+    background: #93bce7;
+}
+.buttons-container a img {
+    margin-right: 2.4rem;
+}
+
+.total-connections {
+    font-size: 1.4rem;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.total-connections img{
+    margin-left: 0.8rem;
+}
+
+@media (min-width: 1100px){
+    #page-landing-content{
+      max-width: 1100px;
+      
+      display: grid;
+      grid-template-rows: 350px 1fr;
+      grid-template-columns: 2fr 1fr 1fr;
+      grid-template-areas: "logo hero hero"
+      "buttons buttons total"
+    }
+    .logo-container{
+        grid-area: logo;
+        align-self: center;
+        margin: 0;
+        text-align: left;
+        
+    }
+    .logo-container img {
+        height: 100%;
+    }
+    .logo-container h2{
+        text-align: initial;
+        font-size: 3.6rem;
+        width: 100%;
+        margin: 0;
+    }
+ 
+    .hero-image{
+        grid-area: hero;
+        justify-self: end;
+        margin: 100px 0px 0px 0px;
+        width: 100%;
+        
+    }
+    .buttons-container{
+        grid-area: buttons;
+        justify-content: flex-start;
+    }
+    .buttons-container a{
+        font-size: 2.4rem;
+    }
+    .total-connections{
+        grid-area: total;
+        justify-self: end;
+        align-items: center;
+    }
+    
+
+}
